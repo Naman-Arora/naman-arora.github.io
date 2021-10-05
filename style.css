@@ -40,11 +40,20 @@
   animation-name: fade-in;
   animation-fill-mode: forwards;
 }
+
+.cont2{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;  /*align horizontal  */
+  bottom: 25%;
+  position: fixed;
+}
 .about-me{
   font-family: 'Patua One', cursive;
   color: black;
   background-color: hsla(177, 87%, 79%, 1);
-  font-size: 3em;
+  font-size: 1.5em;
   border: none;
   border-radius: 5%;
   text-align: center;
