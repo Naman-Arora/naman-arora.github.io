@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/abstract_black_wallpaper.jpg);
+    overflow: hidden;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.5rem;
+    font-weight: 800;
+    color: #66FCF1;
+    text-align: center;
+    padding:5%;
+}
+
+/*.wrapper{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}*/
+
+.section_container{
+    display: grid;
+    gap: 1rem;
+  
+    grid-template-columns: repeat(2, minmax(540px, 1fr));
+    grid-template-rows: repeat(2, minmax(250px, 1fr));
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 4rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    font-size: 4.3em;
+ }
+
+a:visited,a:hover,a:focus{ text-decoration: none; color:white; }
